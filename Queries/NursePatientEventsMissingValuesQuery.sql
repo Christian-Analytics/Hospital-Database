@@ -1,4 +1,3 @@
---Part 2) Question 7
 /*Find missing values of nurses who have not seen a patient and all patients that
 have not seen a nurse.*/
 SELECT
