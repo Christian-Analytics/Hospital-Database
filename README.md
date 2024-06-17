@@ -1,23 +1,38 @@
-# Hospital-Database
-Welcome to the Hospital Database Repository! This project showcases a comprehensive database system designed for managing and organizing hospital-related data efficiently. The repository includes detailed documentation of the database schema and a collection of example queries to interact with the data. This project aims to demonstrate my skills in database design, SQL, and data management within a healthcare context.
+# Hospital Database Project 🏥
 
-Key Components:
+Welcome to the Hospital Database Repository! This project features a robust database system designed to efficiently manage hospital-related data. Explore detailed documentation of the database schema and a set of example queries to interact with the data. This project showcases my skills in database design, SQL, and data management within a healthcare context.
 
-Database Design Documentation: Detailed descriptions of the tables and relationships within the database with a narrative provided, entity relationship diagrams, relational schema, and a data dictionary. 
-1) Please view the DBDD folder in the repository for the database design documentation.
+## Getting Started 🚀
 
-Query Examples: A set of 8 SQL queries to demonstrate common operations and reports.
+### Prerequisites 🔧
+- **[SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)**: Install SQL Server to load the master and log data files.
+- **SQL Server Management Studio (SSMS)**: Use SSMS for database management.
 
-2) Please view the Queries folder in the repository for a SQL document with example queries.
+### Installation 📥
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/Christian-DevInsights/hospital-database.git
+    cd hospital-database
+    ```
 
-Views, SPROCs and Trigger: Data file contains 10 views for commonly accessible data, 14 unique stored procedures (denoted as _SPROC) / Parametric SPROCs (denoted as _PARA), and 1 trigger.
+2. **Attach the Database**:
+    - Open SSMS and connect to your SQL Server.
+    - Right-click "Databases" and choose "Attach...".
+    - Click "Add..." and select `Hospital.mdf` from the `MDF_and_LDF` folder.
+    - Verify the path for `Hospital_Log.ldf` or locate it manually.
+    - Click "OK".
 
-3) Please load the master data and log data file (under the MDF_and_LDF folder in the repository) into SQL Server to view created Views (under the Views folder), Stored Procedures with parameters (under the Programmability folder and the Stored Procedures subfolder), and a Data Definition Language Trigger.
+### Documentation 📚
+- **Database Design Documentation**: Find detailed descriptions of the tables and relationships within the database with a narrative provided, relational schema, a data dictionary and more in the `DBDD` folder.
 
-Features:
+### Running Example Queries 🔍
+- Explore a variety of SQL queries in the `Queries` folder for data retrieval and reporting.
 
-Database Schema: Detailed documentation of tables for patients, staff, medical supplies, treatments, and billing.
+## Database Structure 🏗️
+- **Data File**: Includes 14 base tables, 10 views, and 14 stored procedures for common operations.
+    - Views and stored procedures are organized in respective folders in SSMS.
 
-Query Collection: A variety of SQL queries to showcase data retrieval, manipulation, and reporting capabilities.
-
-Data Examples: Example datasets already loaded into the data file for easy testing.
+## Features 🌟
+- **Database Schema**: Structured tables for patients, staff, medical supplies, treatments, and billing.
+- **Query Collection**: Demonstrates SQL capabilities for data manipulation and reporting.
+- **Data Examples**: Pre-loaded datasets facilitate easy testing.
