@@ -1,4 +1,4 @@
-# Hospital_Database
+# Hospital-Database
 Welcome to the Hospital Database Repository! This project showcases a comprehensive database system designed for managing and organizing hospital-related data efficiently. The repository includes detailed documentation of the database schema and a collection of example queries to interact with the data. This project aims to demonstrate my skills in database design, SQL, and data management within a healthcare context.
 
 Key Components:
