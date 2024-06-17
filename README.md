@@ -4,7 +4,7 @@ Welcome to the Hospital Database Repository! This project showcases a comprehens
 Key Components:
 
 Database Design Documentation: Detailed descriptions of the tables and relationships within the database with a narrative provided, entity relationship diagrams, relational schema, and a data dictionary. 
-1) Please view the DBDD folder in the repository for the database design documentation document.
+1) Please view the DBDD folder in the repository for the database design documentation.
 
 Query Examples: A set of 8 SQL queries to demonstrate common operations and reports.
 
