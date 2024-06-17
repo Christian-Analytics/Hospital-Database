@@ -26,7 +26,7 @@ Welcome to the Hospital Database Repository! This project features a robust data
 - **Database Design Documentation**: Find detailed descriptions of the tables and relationships within the database with a narrative provided, relational schema, a data dictionary and more in the `DBDD` folder.
 
 ### Running Example Queries 🔍
-- Explore a variety of SQL queries in the `Queries` folder for data retrieval and reporting.
+- Explore a variety of simple SQL queries in the `Queries` folder for data retrieval and reporting.
 
 ## Database Structure 🏗️
 - **Data File**: Includes 14 base tables, 10 views, and 14 stored procedures for common operations.
