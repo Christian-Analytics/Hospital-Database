@@ -11,7 +11,7 @@ Welcome to the Hospital Database Repository! This project features a robust data
 ### Installation 📥
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/Christian-Analytics/Hospital-Database.git
+    git clone https://github.com/Christian-Analytics/hospital-database.git
     cd hospital-database
     ```
 
